@@ -1,0 +1,118 @@
+.intro{
+    /* background-color: yellowgreen; */
+    display: flex;
+
+}
+.left{
+    flex: 0.5;
+    /* background-color: pink; */
+}
+.right{
+    flex: 0.5;
+    position: relative;
+}
+.imgcontainer img{
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left: -35px;
+    transition: all 4s cubic-bezier(0.47, 0, 0.75, 0.72);
+     animation: scrollanimation 4s infinite;
+    
+}
+.imgcontainer{
+    /* width: 700px;
+    height: 700px; */
+    width: 684px;
+    height: 555px;
+    /* border-radius: 50%; */
+         /* background-image: radial-gradient(circle ,#020356 35% ,#1e97e5 70%,black 50%); */
+    /* background-image:radial-gradient(circle ,#020356 35% ,#1e97e5 40%,black 110%); */
+    /* background-image: radial-gradient(circle at 45% ,#020356 30% ,#1e97e5 50%,black 80%);
+    background-image: radial-gradient(circle at 45% ,#020356 30% ,#060606 50%,#0a0a0a 80%); */
+    /* background-image: radial-gradient(circle at 45% ,#800080 30% ,#e77fe7 50%,#f7dcf7 80%); */
+    background-image: radial-gradient(circle at 45% ,#ed5eed 30% ,#f5ccf5 50%,#f7dcf7 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Introwrapper{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    color:rgb(56, 55, 55);
+     background-color: rgb(247 220 247);
+}
+.Introwrapper > h1{
+    font-size: 60px;
+}
+.Introwrapper > h3{
+    font-size: 30px;
+    color: purple;
+}
+.Introwrapper >h2{
+    font-size: 35px;
+}
+.right>a{
+    color: black;
+    position:absolute;
+    bottom: 40px;
+    left: 40%;
+    text-decoration: none;
+    transition: all 2s ease;
+    animation: scrollanimation 2s infinite;
+}
+@keyframes scrollanimation{
+    50%{
+        /* opacity: 0; */
+        transform: translateY(10px);
+
+    }
+}
+.ityped-cursor{
+    animation:blink 1s infinite ;
+}
+@keyframes blink{
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@media screen and (max-width:450px){
+    .intro{
+        flex-direction: column;
+        /* max-height: 100vh; */
+        height: 100%;
+    }
+    .left{
+        flex: 0.4;
+        height: 40vh;
+    }
+    .right{
+        flex: 0.6;
+        width: 100%;
+        height: 50vh;
+    }
+    /* .right>a{
+        bottom:20px
+    } */
+    .imgcontainer{
+        position: relative;
+        left: -128px;
+        height: 100%;
+    }
+    .imgcontainer img{
+        width: 400px;
+        height: 400px;
+    }
+    .Introwrapper{
+        padding: 10px;
+    }
+    
+}

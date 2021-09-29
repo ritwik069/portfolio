@@ -1,0 +1,100 @@
+.contact{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.upperpart{
+    flex:0.2;
+    width: 98%;
+    text-align: center;
+    height: 100%;
+    box-shadow: 10px 10px 5px 0px rgba(204,203,203,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(204,203,203,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(204,203,203,0.75);
+}
+.uperWrapper{
+    margin: 26px 0;
+}
+.lowerpart{
+    flex:0.8;
+    display: flex;
+    margin: 15px 15px;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.about{
+    flex:0.8;
+    /* border: purple solid; */
+    /* align-self: center; */
+    /* box-shadow: 10px 10px 5px 0px rgba(204,203,203,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(204,203,203,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(204,203,203,0.75); */
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-end;
+    width: 90%;
+}
+.abt{
+    font-size: 1.9rem;
+    color: purple;
+    border-bottom: purple solid;
+}
+.content{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+.aboutWrapper{
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin:40px;    
+    margin-top: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(204,203,203,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(204,203,203,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(204,203,203,0.75);
+    
+}
+.contactList{
+    flex: 0.2;
+}
+li{
+    list-style: none;
+}
+
+.cntct{
+    display: flex;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(204,203,203,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(204,203,203,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(204,203,203,0.75);
+    margin:30px;
+    justify-content: start;
+    align-items: center;
+}
+.cntct h4{
+    margin-left: 20px;
+}
+.cic{
+    color: purple;
+    font-size: 2.0rem !important;
+}
+.cicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:450px){
+    .lowerpart{
+        flex-direction: column-reverse;
+    }
+   .about{
+       width: 100vw;
+   }
+    .cicon ul{
+        width: 100vw;
+
+    }
+}

@@ -1,0 +1,97 @@
+.portfolio{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        
+        min-height: calc(100vh - 70px);   
+        height: auto;
+}
+.portfolio h1{
+    font-size: 50px;
+    color: purple;
+}
+.portfolio>ul{
+    margin: 30px;
+    padding:0;
+    display: flex;
+    list-style-type: none;
+}
+.portfolio li{
+    font-size: 20px;
+    margin-right: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+    
+}
+.portfolio img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+    border-radius: 20px;
+}
+.liActive,
+.portfolio li:hover{
+    background-color: #eb24eb;
+    color: white;
+    
+}
+.pcontainer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pitem{
+    width: 220px;
+    height: 270px;
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    position: relative;
+    border-radius: 20px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.pitem h3{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+}
+.pitem:hover{
+    background-color: purple;
+    color: white;
+}
+
+.portfolio img:hover{
+    background-color: purple;
+    opacity: 0.2;
+    z-index: 0;
+}
+@media screen and (max-width:450px){
+    .portfolio{
+        width: 100%;
+        height: auto;
+    }
+    .portfolio >h1{
+        font-size: 40px;
+    }
+    .portfolio>ul{
+        margin: 30px;
+      
+        flex-direction: column;
+    }
+    .pitem{
+        width: 150px;
+        height: 150px;
+    }
+    .pitem img{
+
+        height: auto;
+    }
+  
+}
