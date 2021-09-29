@@ -7,7 +7,7 @@ function Projects() {
         <div className='project' id='project'>
             {projectData.map((p)=>(
 
-                <Projectcard key={p.id} image={p.imgurl} lnkurl={p.lnkurl} title={p.prjTitle}/>
+                <Projectcard key={p.id} image={p.imgurl} lnkurl={p.lnkurl} title={p.prjTitle} desc={p.desc}/>
             ))}
 
         

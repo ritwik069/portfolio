@@ -89,7 +89,7 @@ export const projectData=[
         imgurl:budget,
         lnkurl:'https://ritwik069.github.io/budget-analysis/',
         prjTitle:'Budget Analysis',
-        desc:'',
+        desc:'This is a budget analysisi app/website which has some default value you can clear it and start by your own and aslo can track tour total expense and income with final balance . This app is made with React js frame work and data is managed using Context Api',
 
     },
     {
@@ -97,7 +97,7 @@ export const projectData=[
         imgurl:Linkedin,
         lnkurl:'https://linkedinproject-1e178.web.app/',
         prjTitle:'Social Media App',
-        desc:'',
+        desc:'This is a social media clone made on Redux React App and authenticaion is done using Firebase Auth plus the storage of posts is also in Firebase FireStone . Here you can register and login using you credentials and can post atricles in written formate .',
 
     },
     {
@@ -105,7 +105,7 @@ export const projectData=[
         imgurl:s1,
         lnkurl:'',
         prjTitle:'E-Commerce',
-        desc:'',
+        desc:' Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cum deserunt magnam, cupiditate placeat, beatae vel esse magni et eius, repudiandae minus qui sint maiores quo autem sed iusto tempore',
 
     },
 
