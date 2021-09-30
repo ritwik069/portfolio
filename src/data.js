@@ -1,4 +1,4 @@
-import kukku from './image/kukku-01.png'
+import Ecom from './image/Screenshot (85).png'
 import s1 from './image/Screenshot (73).png'
 import budget from './image/Screenshot (76).png'
 import Linkedin from './image/Screenshot (78).png'
@@ -102,10 +102,10 @@ export const projectData=[
     },
     {
         id:3,
-        imgurl:s1,
+        imgurl:Ecom,
         lnkurl:'',
         prjTitle:'E-Commerce',
-        desc:' Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cum deserunt magnam, cupiditate placeat, beatae vel esse magni et eius, repudiandae minus qui sint maiores quo autem sed iusto tempore',
+        desc:' This is the basic Ecommerse website named Electro made on React App and Context Api here  styled componenets with material ui is used . Here you can buy products add them to card exit card using Hooks and functional Components ',
 
     },
 

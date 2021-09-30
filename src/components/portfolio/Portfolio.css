@@ -61,6 +61,14 @@
     position: absolute;
     font-size: 20px;
     color: white;
+    top: 90px;
+    
+}
+.pitem h3:hover{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    /* z-index: 4; */
 }
 .pitem:hover{
     background-color: purple;
@@ -92,6 +100,11 @@
     .pitem img{
 
         height: auto;
+    }
+    .pitem h3{
+        position: absolute;
+        font-size: 20px;
+        color: white;
     }
   
 }
