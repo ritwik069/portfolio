@@ -103,7 +103,7 @@ export const projectData=[
     {
         id:3,
         imgurl:Ecom,
-        lnkurl:'',
+        lnkurl:'https://ritwik069.github.io/electro/',
         prjTitle:'E-Commerce',
         desc:' This is the basic Ecommerse website named Electro made on React App and Context Api here  styled componenets with material ui is used . Here you can buy products add them to card exit card using Hooks and functional Components ',
 
